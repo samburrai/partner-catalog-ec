@@ -41,8 +41,8 @@ public class DemoApplication {
       simpleDateFormat = new SimpleDateFormat(pattern);
       String stringNow = simpleDateFormat.format(new Date());
 
-      System.out.println("SER106");
-      return "SER106 " + cnt++ + " " + stringNow + " on " + HOSTNAME;
+      System.out.println("SER107");
+      return "SER107 " + cnt++ + " " + stringNow + " on " + HOSTNAME;
     }
 
     public static void main(String[] args) {
