@@ -42,7 +42,7 @@ public class DemoApplication {
       String stringNow = simpleDateFormat.format(new Date());
 
       System.out.println("SER103");
-      return "SER103 " + cnt++ + " " + stringNow + " on " + HOSTNAME;
+      return "SER104 " + cnt++ + " " + stringNow + " on " + HOSTNAME;
     }
 
     public static void main(String[] args) {
